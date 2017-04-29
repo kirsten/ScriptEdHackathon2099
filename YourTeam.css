@@ -1,0 +1,97 @@
+body{
+  font-family:Exo;
+  color: white;
+}
+#wrapper{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    height:100%;
+    background-size:100% 100%;
+    background-image:url('https://68.media.tumblr.com/bb19594e62414d7a1f4b645d6fa862df/tumblr_nzofjq42Bo1txt22yo1_500.gif')
+  }
+.img-circle{
+    border-radius:50%;
+    background-image:url("http://img01.deviantart.net/8924/i/2008/312/c/2/alien_man_by_volkanakca.jpg");
+    width: 150px;
+    height:150px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size:cover;
+    float:left;
+
+}
+#bid{
+    border-radius:50%;
+    background-image:url("http://s-media-cache-ak0.pinimg.com/736x/47/93/9e/47939e549f1789f00f856acca9adbca9.jpg");
+    width: 150px;
+    height:150px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size:cover;
+    float:right;
+}
+#sid{
+    border-radius:50%;
+    background-image:url("https://i.vimeocdn.com/video/438491573_1280x720.jpg");
+    width: 150px;
+    height:150px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size:cover;
+    margin:auto;
+}
+#fid{
+    border-radius:50%;
+    background-image:url("http://cgimg.s3.amazonaws.com/cg/g97/4997/4997_1098433910_600.jpg");
+    width: 150px;
+    height:150px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size:cover;
+    float:left;
+     }
+
+#pid{
+    border-radius:50%;
+    background-image:url("http://www.startrek.com/legacy_media/images/200309/ent-055-reed-alien/320x240.jpg");
+    width: 150px;
+    height:150px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size:cover;
+    float:right;
+     }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.container{
+    width: 400px;
+    margin: auto;
+    }
+#Title {
+  text-align: center;
+  font-size: 40px;
+}
+
+#role-description {
+  text-align: center;
+  font-size: 30px;
+}
+button{
+  height:100px;
+  width:400px;
+  border-radius:30%;
+  background-color:rgba(153, 204, 255, 0.9);
+  font-family:Exo;
+  font-size:45px;
+}
+#SubmittalPageButton{
+  margin-left:auto;
+  margin-right:auto;
+  width:400px;
+  height:100px;
+}

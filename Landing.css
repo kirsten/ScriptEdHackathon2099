@@ -1,0 +1,40 @@
+body{
+  font-family:Exo;
+}
+.Image{
+    background-size:100% 100%;
+}
+
+#wrapper{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    height:100%;
+    background-size:100% 100%;
+    background-image:url('https://68.media.tumblr.com/bb19594e62414d7a1f4b645d6fa862df/tumblr_nzofjq42Bo1txt22yo1_500.gif');
+
+}
+#Button{
+  height:100px;
+  width:400px;
+  border-radius:30%;
+  background-color:rgba(153, 204, 255, 0.9);
+  font-family:Exo;
+  font-size:50;
+}
+#SE{
+  font-size:100px;
+  text-align:center;
+  color:white;
+}
+.info{
+  color:white;
+  font-size:70px;
+  text-align:center;
+}
+#ButtonDiv{
+  margin-left:auto;
+  margin-right:auto;
+  width:400px;
+  height:100px;
+}

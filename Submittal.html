@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="views/submit.css">
+    <div class="topnav" id="topnav">
+     <a href="index.html">Home</a>
+    </div>
+    <title>ScriptEd Hackathon 2099</title>
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Submittal.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+
+  </head>
+  <body>
+    <div id="form">
+      <header>
+      <h1>
+        Hack Away!
+      </h1>
+    </header>
+
+    <main>
+      <p>
+        Work with your team to make your project, then submit below
+      </p>
+      Team Name <input type="text" id="Name">
+      GitHub Link <input type="text" id="link">
+    <button id="Submit">Submit</button>
+    </main>
+    </div>
+
+<div hidden id="robot">
+  <h1 id="message" class="team">
+
+  </h1>
+  <h2 class="team">
+    Here is your submission...
+  </h2>
+  <div class="robotimage"><iframe width="640" height="480" src="https://sketchfab.com/models/c9de125cb9d8407abed1dc8f6a4676a8/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+
+<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+    <a href="https://sketchfab.com/models/c9de125cb9d8407abed1dc8f6a4676a8?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Little robot</a>
+    by <a href="https://sketchfab.com/goart?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">CG Art.vn</a>
+    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+</p>
+</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script>
+    $("#Submit").click(function(){
+  var name = $("#Name").val();
+  var link = $("#link").val();
+$("#form").hide();
+$("#robot").show();
+$("#message").text("Thank you "+name);
+});
+
+    </script>
+
+  </body>
+</html>
